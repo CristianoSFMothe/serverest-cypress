@@ -2,7 +2,8 @@
 
  Teste e2e com Cypress no Serverest aplicação web e na API
 
- ![página inicial do site Serverest](image.png)
+ ![página inicial do site Serverest](https://github.com/CristianoSFMothe/serverest-cypress/assets/68359459/07717313-618b-4f54-9c1f-7cc057f37456)
+
 
 Este repositório contém testes automatizados desenvolvidos utilizando o Cypress para estudar a aplicação web do <a href="https://front.serverest.dev/login" target="blank">Serverest</a>
 
@@ -74,7 +75,7 @@ Running:  register.cy.js                                                        
   └────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-====================================================================================================
+============================================================================================
 
   (Run Finished)
 

@@ -1,0 +1,31 @@
+{
+  "name": "serverest-cypress",
+  "version": "1.0.0",
+  "description": "Teste e2e com Cypress no Serverest aplicação web e na API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianoSFMothe/serverest-cypress.git"
+  },
+  "keywords": [
+    "cypress",
+    "javascript",
+    "web",
+    "api"
+  ],
+  "author": "Cristiano Ferreira Mothe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristianoSFMothe/serverest-cypress/issues"
+  },
+  "homepage": "https://github.com/CristianoSFMothe/serverest-cypress#readme",
+  "dependencies": {
+    "cypress": "^13.6.4"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1"
+  }
+}

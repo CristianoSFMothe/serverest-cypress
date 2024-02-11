@@ -1,5 +1,10 @@
 {
   "existing_email": {
     "email": "fulano@qa.com"
+  },
+  "user": {
+    "name": "Fulano da Silva",
+    "email": "beltrano@qa.com.br",
+    "password": "teste"
   }
 }

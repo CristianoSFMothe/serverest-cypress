@@ -43,3 +43,31 @@ Cypress.Commands.add("fillFields", (name, email, password) => {
 Cypress.Commands.add("successfulRegistration", (text) => {
   cy.contains("h1", text).should("be.visible");
 });
+
+Cypress.Commands.add("messageErro", (text) => {
+  cy.get(".alert > span").should("have.text", text);
+});
+
+Cypress.Commands.add("emptyNameField", (email, password) => {
+  cy.get("#email").type(email).should("have.value", email);
+
+  cy.get("#password")
+    .type(password, { log: false })
+    .should("have.value", password);
+
+  cy.get(".btn-primary").should("have.text", "Cadastrar").click();
+});
+
+Cypress.Commands.add("emptyEmailField", (name, password) => {
+  cy.get("#nome").type(name).should("have.value", name);
+
+  cy.get("#password")
+    .type(password, { log: false })
+    .should("have.value", password);
+
+  cy.get(".btn-primary").should("have.text", "Cadastrar").click();
+});
+
+Cypress.Commands.add("emptyField", () => {
+  cy.get(".btn-primary").should("have.text", "Cadastrar").click();
+});

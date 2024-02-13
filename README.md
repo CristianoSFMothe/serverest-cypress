@@ -140,3 +140,37 @@ Para o usuário administrador, foram testadas as seguintes funcionalidades:
 
 ## Sobre o Cypress
 Os testes foram realizados utilizando o Cypress, uma ferramenta de teste de frontend rápida, fácil de usar e confiável, construída para o ecossistema moderno da web. O Cypress permite escrever, executar e depurar testes de maneira eficiente, oferecendo uma experiência de teste de ponta a ponta.
+
+# Contribuindo
+
+Para contribuir com este projeto, siga os passos abaixo:
+
+1. Faça um fork deste repositório clicando no botão "Fork" no canto superior direito da página.
+2. Clone o fork para o seu ambiente de desenvolvimento local:
+
+```bash
+git clone https://github.com/CristianoSFMothe/servrest-dev-web.git
+```
+
+3. Crie uma branch para suas alterações:
+
+```bash
+git checkout -b minha-contribuicao
+```
+
+4. Faça suas alterações e adicione-as utilizando o git:
+
+```bash
+git add .
+git commit -m "Descrição das alterações"
+```
+
+5. Envie suas alterações para o seu repositório remoto:
+
+```bash
+git push origin minha-contribuicao
+```
+
+Crie um pull request clicando no botão `"Pull Request"` na página do seu fork.
+
+Sinta-se à vontade para contribuir, reportar problemas ou sugerir melhorias. Se você tiver alguma dúvida sobre como executar os testes ou quaisquer outras questões relacionadas ao projeto, não hesite em entrar em contato.

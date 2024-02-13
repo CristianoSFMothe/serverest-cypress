@@ -1,11 +1,11 @@
-# Serverest Cypress
+# ServeRest - Testes de Funcionalidade - Cypress
 
- Teste e2e com Cypress no Serverest aplicação web e na API
+Este repositório contém testes de funcionalidades realizados no projeto ServeRest Dev Web. O objetivo desses testes é garantir o correto funcionamento das principais características do sistema. Abaixo estão listadas as funcionalidades testadas, assim como aquelas que estão planejadas para teste futuro:
 
- ![página inicial do site Serverest](https://github.com/CristianoSFMothe/serverest-cypress/assets/68359459/07717313-618b-4f54-9c1f-7cc057f37456)
+ ![página inicial do site ServeRest ](https://github.com/CristianoSFMothe/serverest-cypress/assets/68359459/07717313-618b-4f54-9c1f-7cc057f37456)
 
 
-Este repositório contém testes automatizados desenvolvidos utilizando o Cypress para estudar a aplicação web do <a href="https://front.serverest.dev/login" target="blank">Serverest</a>
+Este repositório contém testes automatizados desenvolvidos utilizando o Cypress para estudar a aplicação web do <a href="https://front.serverest.dev/login" target="blank">ServeRest </a>
 
 ## Pré-requisistos
 
@@ -94,4 +94,39 @@ Para instalar o Cypress Plugin API
  npm i cypress-plugin-api -D
  ```
 
- 
+# Funcionalidades Testadas
+
+## Login
+
+* [x] Verificar se o sistema permite que os usuários façam login com sucesso utilizando credenciais válidas.
+
+## Cadastro de Usuário
+* [x] Testar o processo de criação de novas contas de usuário no sistema, tanto com privilégios de 
+administrador quanto de usuários comuns.
+
+## Logout
+* [x] Realizar o fluxo de logout do sistema.
+
+
+Para o usuário administrador, foram testadas as seguintes funcionalidades:
+
+* [x] Cadastrar um novo usuário
+* [x] Listar Usuários
+* [x] Editar Usuário
+* [x] Excluir Usuário
+* [x] Cadastrar Produtos
+* [x] Listar Produtos
+* [x] Editar Produto
+* [x] Excluir Produto
+
+> Todos os testes acima foram conduzidos através da Interface Gráfica do Usuário (GUI).
+
+# Funcionalidades para Testes Futuros
+
+* [ ] User Session com o Cypress
+
+# Melhorias Futuras
+* [ ] Criação de todos os testes utilizando a API por meio da GUI.
+
+## Sobre o Cypress
+Os testes foram realizados utilizando o Cypress, uma ferramenta de teste de frontend rápida, fácil de usar e confiável, construída para o ecossistema moderno da web. O Cypress permite escrever, executar e depurar testes de maneira eficiente, oferecendo uma experiência de teste de ponta a ponta.

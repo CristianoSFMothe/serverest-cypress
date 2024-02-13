@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 import { faker } from "@faker-js/faker";
 
-const data = require("../fixtures/data.json");
+const data = require("../../fixtures/data.json");
 
 describe("Create an accountt", () => {
   beforeEach(() => {

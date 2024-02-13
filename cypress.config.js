@@ -4,13 +4,15 @@ module.exports = defineConfig({
   e2e: {
     baseUrl: "https://front.serverest.dev/login",
     setupNodeEvents(on, config) {
-      // implement node event listeners here
     },
     env: {
+      requestMode: true,
+      snapshotOnly: true,
       defaultCommandTimeout: 5000,
       hideCredentials: true,
     },
     experimentalRunAllSpecs: true,
+    experimentralSessionAndOrigin: true,
   },
   video: false,
   viewportHeight: 880,

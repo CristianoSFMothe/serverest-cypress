@@ -8,7 +8,7 @@ const user = {
   password: faker.internet.password(),
 };
 
-const data = require("../fixtures/data.json");
+const data = require("../../fixtures/data.json");
 
 describe("User Registrations", () => {
   beforeEach(() => {

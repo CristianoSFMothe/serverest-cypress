@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-const data = require("../fixtures/data.json");
+const data = require("../../fixtures/data.json");
 
 describe("Login", () => {
   beforeEach(() => {

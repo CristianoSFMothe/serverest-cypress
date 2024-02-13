@@ -86,4 +86,12 @@ Running:  register.cy.js                                                        
   │ ✔  register.cy.js                           00:08        1        1        -        -        - │
   └────────────────────────────────────────────────────────────────────────────────────────────────┘
     ✔  All specs passed!                        00:08        1        1        -        -        -
-````
+```
+
+Para instalar o Cypress Plugin API
+
+```bash	
+ npm i cypress-plugin-api -D
+ ```
+
+ 

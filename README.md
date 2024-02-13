@@ -1,3 +1,13 @@
+<div align="center">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/CristianoSFMothe/serverest-cypress">
+<img alt="GitHub followers" src="https://img.shields.io/github/followers/CristianoSFMothe">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/CristianoSFMothe/serverest-cypress">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/CristianoSFMothe/serverest-cypress">
+
+</div>
+
+
+
 # ServeRest - Testes de Funcionalidade - Cypress
 
 Este repositório contém testes de funcionalidades realizados no projeto ServeRest Dev Web. O objetivo desses testes é garantir o correto funcionamento das principais características do sistema. Abaixo estão listadas as funcionalidades testadas, assim como aquelas que estão planejadas para teste futuro:

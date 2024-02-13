@@ -133,10 +133,10 @@ Para o usuário administrador, foram testadas as seguintes funcionalidades:
 
 # Funcionalidades para Testes Futuros
 
-* [ ] User Session com o Cypress
+* User Session com o Cypress
 
 # Melhorias Futuras
-* [ ] Criação de todos os testes utilizando a API por meio da GUI.
+* Criação de todos os testes utilizando a API por meio da GUI.
 
 ## Sobre o Cypress
 Os testes foram realizados utilizando o Cypress, uma ferramenta de teste de frontend rápida, fácil de usar e confiável, construída para o ecossistema moderno da web. O Cypress permite escrever, executar e depurar testes de maneira eficiente, oferecendo uma experiência de teste de ponta a ponta.

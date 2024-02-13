@@ -149,7 +149,7 @@ Para contribuir com este projeto, siga os passos abaixo:
 2. Clone o fork para o seu ambiente de desenvolvimento local:
 
 ```bash
-git clone https://github.com/CristianoSFMothe/servrest-dev-web.git
+git clone https://github.com/CristianoSFMothe/serverest-cypress
 ```
 
 3. Crie uma branch para suas alterações:

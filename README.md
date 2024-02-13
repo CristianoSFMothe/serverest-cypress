@@ -115,19 +115,19 @@ Para instalar o Cypress Plugin API
 administrador quanto de usuários comuns.
 
 ## Logout
-* [x] Realizar o fluxo de logout do sistema.
+* [ ] Realizar o fluxo de logout do sistema.
 
 
 Para o usuário administrador, foram testadas as seguintes funcionalidades:
 
 * [x] Cadastrar um novo usuário
-* [x] Listar Usuários
-* [x] Editar Usuário
-* [x] Excluir Usuário
-* [x] Cadastrar Produtos
-* [x] Listar Produtos
-* [x] Editar Produto
-* [x] Excluir Produto
+* [ ] Listar Usuários
+* [ ] Editar Usuário
+* [ ] Excluir Usuário
+* [ ] Cadastrar Produtos
+* [ ] Listar Produtos
+* [ ] Editar Produto
+* [ ] Excluir Produto
 
 > Todos os testes acima foram conduzidos através da Interface Gráfica do Usuário (GUI).
 

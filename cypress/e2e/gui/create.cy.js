@@ -26,7 +26,7 @@ describe("User Registrations", () => {
 
     cy.registerUserAdministrator(user.name, user.email, user.password);
 
-    cy.registerButton("Cadastrar");
+    cy.cardButton("Cadastrar");
 
     context("should find the user record", () => {
       cy.findRecord(user.name);

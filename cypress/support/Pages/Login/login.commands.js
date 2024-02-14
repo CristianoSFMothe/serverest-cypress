@@ -16,3 +16,7 @@ Cypress.Commands.add("login", (email, password) => {
     data.user.name
   );
 });
+
+Cypress.Commands.add('logout',  () => {
+  cy.contains('button', 'Logout').should("be.visible").click()
+} );

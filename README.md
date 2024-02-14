@@ -122,6 +122,8 @@ Para o usuário administrador, foram testadas as seguintes funcionalidades:
 
 * [x] Cadastrar um novo usuário
 * [ ] Listar Usuários
+* [x] Listar Usuários
+>>>>>>> Stashed changes
 * [ ] Editar Usuário
 * [ ] Excluir Usuário
 * [ ] Cadastrar Produtos

@@ -5,6 +5,7 @@
   "user": {
     "name": "Fulano da Silva",
     "email": "beltrano@qa.com.br",
-    "password": "teste"
+    "password": "teste",
+    "administrador": "true"
   }
 }
